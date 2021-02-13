@@ -183,50 +183,14 @@
       }
     }
   ],
-  "keranjangs": [
-    {
-      "jumlah": 1,
-      "total_harga": 10000,
-      "product": {
-        "id": 6,
-        "kode": "K-06",
-        "nama": "Bakso",
-        "harga": 10000,
-        "is_ready": true,
-        "gambar": "bakso.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      },
-      "keterangan": "Bakso Kosongan",
-      "id": 1
-    },
-    {
-      "jumlah": 1,
-      "total_harga": 13000,
-      "product": {
-        "id": 5,
-        "kode": "K-05",
-        "nama": "Mie Goreng",
-        "harga": 13000,
-        "is_ready": true,
-        "gambar": "mie-goreng.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      },
-      "id": 2
-    }
-  ],
+  "keranjangs": [],
   "pesanans": [
     {
-      "total_bayar": 60000,
+      "total_bayar": 50000,
       "menus": [
         {
-          "jumlah": 2,
-          "total_harga": 32000,
+          "qty": 2,
+          "sub_total": 32000,
           "product": {
             "id": 1,
             "kode": "K-01",
@@ -239,12 +203,371 @@
               "nama": "Makanan"
             }
           },
-          "keterangan": "Semuanya Pedas",
           "id": 1
         },
         {
-          "jumlah": 2,
-          "total_harga": 28000,
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 6
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 1,
+          "sub_total": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Lontong Opor Ayam",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 9
+    },
+    {
+      "total_bayar": 120000,
+      "menus": [
+        {
+          "qty": 2,
+          "sub_total": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "qty": 3,
+          "sub_total": 42000,
           "product": {
             "id": 2,
             "kode": "K-02",
@@ -257,10 +580,69 @@
               "nama": "Makanan"
             }
           },
+          "id": 2
+        },
+        {
+          "qty": 3,
+          "sub_total": 36000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
           "id": 3
+        },
+        {
+          "qty": 1,
+          "sub_total": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "Pedas",
+          "id": 4
         }
       ],
-      "id": 1
+      "id": 10
+    },
+    {
+      "total_bayar": 10000,
+      "menus": [
+        {
+          "qty": 1,
+          "sub_total": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "Pedas",
+          "id": 4
+        }
+      ],
+      "id": 11
     }
   ]
 }
